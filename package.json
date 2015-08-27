@@ -1,0 +1,28 @@
+{
+  "name": "openprojectnight.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle-css": "cssnext assets/deps.css assets/bundle.css",
+    "bundle": "npm run bundle-css",
+    "start": "jekyll serve -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openseattle/openprojectnight.org.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openseattle/openprojectnight.org/issues"
+  },
+  "homepage": "https://github.com/openseattle/openprojectnight.org#readme",
+  "dependencies": {
+    "basscss-grid": "^1.0.3",
+    "csskit": "^1.1.1",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "cssnext": "^1.8.2"
+  }
+}

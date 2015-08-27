@@ -1,1 +1,1 @@
-# [openprojectnight.org](http://openprojectnight.org)
+# [Seattle Open Project Night](http://openprojectnight.org/seattle)

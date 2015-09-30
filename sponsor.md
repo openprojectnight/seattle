@@ -30,4 +30,4 @@ Sponsoring Open Project Night is a great way to let people know about your compa
 <li class="row">Opportunity to give a brief introduction at beginning of event</li>
 </ul>
 
-<a href="mailto:hi@openseattle.org" class="button">Email us to let us know you're interested!</a>
+<a href="mailto:hi@openseattle.org" class="button button-blue">Email hi@openseattle.org to become a sponsor!</a>

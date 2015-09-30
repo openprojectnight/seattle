@@ -4,9 +4,7 @@ layout: page
 permalink: /sponsor/
 ---
 
-Support a community-oriented event focused on learning technology and collaboratively building technology projects.
-
-Sponsoring Open Project Night is a great way to let people know about your company, pitch open job positions, and learn about the technology community in Seattle. 
+**Support a community-oriented event focused on learning technology and collaboratively building technology projects.** Sponsoring Open Project Night is a great way to let people know about your company, pitch open job positions, and learn about the technology community in Seattle. 
 
 ## Sponsorship levels:
 

@@ -4,6 +4,9 @@
 - name: "Seattle NodeSchool"
   description: "Learn JavaScript & Node.js through self-guided tutorials completed through the command-line & mentors who can help if you get stuck."
   url: 'http://nodeschool.io/seattle'
+- name: "Popup Arcade"
+  description: "Building arcade machines that will be placed all over Seattle."
+  url: 'http://popuparcade.org'
 - name: "Open Seattle"
   description: "Work on civic technology projects with <b>Open Seattle</b>."
   url: 'http://openseattle.org'

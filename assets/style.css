@@ -114,21 +114,22 @@ header {
   margin-bottom: 15px;
 }
 
-.light-card .project-list {
+.light-card ul {
   margin: 0px;
   padding: 0px;
 }
 
-.light-card .project-list h3 {
+.light-card ul h3 {
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.light-card .project-list li {
+.light-card ul li {
   list-style-type: none;
 }
 
-.light-card .project-list li a {
+.light-card ul li a,
+.light-card ul li.row {
   margin-bottom: 10px;
   background-color: #efefef;
   padding: 20px;
@@ -136,9 +137,17 @@ header {
   border: 1px solid #efefef;
 }
 
-.light-card .project-list li a:hover {
+.light-card ul li a:hover {
   background-color: #f3f3f1;
   border: 1px solid #ccc;
+}
+
+.light-card ul li.row {
+  margin-bottom: 5px;
+  background-color: #efefef;
+  padding: 10px;
+  display: block;
+  border: 1px solid #efefef;
 }
 
 .content-block {

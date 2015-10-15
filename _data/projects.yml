@@ -1,6 +1,9 @@
 - name: "Hey Duwamish!"
   description: "Join <b>Hey Duwamish!</b>, a community of residents and stakeholders who are monitoring toxic waste cleanup and other environmental health issues along the Duwamish River."
   url: 'http://heyduwamish.org'
+- name: "Install Party!"
+  description: "The Duwamish Valley Youth Corps are launching a new program to learn more about technology using free and open source software. Help us as we install Linux on 20 laptops! Or bring your own laptop in for an installation - all pc's welcome"
+  url: 'http://duwamishcleanup.org/programs/duwamish-valley-youth-corps/'
 - name: "Seattle NodeSchool"
   description: "Learn JavaScript & Node.js through self-guided tutorials completed through the command-line & mentors who can help if you get stuck."
   url: 'http://nodeschool.io/seattle'

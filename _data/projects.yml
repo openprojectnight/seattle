@@ -1,3 +1,6 @@
+- name: "CopQuest!"
+  description: "Help us with play testing and learn more about CopQuest- a game about police brutality in America."
+  url: 'https://www.kickstarter.com/projects/1152125628/copquest-police-brutality-simulator'
 - name: "Hey Duwamish!"
   description: "Join <b>Hey Duwamish!</b>, a community of residents and stakeholders who are monitoring toxic waste cleanup and other environmental health issues along the Duwamish River."
   url: 'http://heyduwamish.org'

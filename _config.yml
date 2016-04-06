@@ -2,8 +2,12 @@ title: Open Project Night Seattle
 description: "Learn, Make, & Share!"
 permalink: /posts/:title
 baseurl: ''
-markdown: redcarpet
 exclude: [node_modules, tmp, assets/deps.css]
+
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
 
 defaults:
   -

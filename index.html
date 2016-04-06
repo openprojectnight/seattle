@@ -3,20 +3,21 @@
 
 <div class="container">
   <h1 class="page-title">Learn, Make, & Share at Open Project Night.</h1>
-  <div class="upcoming-events light-card">
-    <p class="header-label">Make our next event extra special:</p>
-    <h2>November 17 <i>at</i> Galvanize</h2>
-    <ul class="project-list">
-      <h3>Some of the activities:</h3>
-      {% for project in site.data.projects %}
-        <li><a href="{{project.url}}" target="_blank"><b>{{project.name}}:</b> <span class="project-description">{{ project.description }}</span></a></li>
+      {% for event in site.events limit:1 %}
+        <div class="upcoming-events light-card">
+          <p class="header-label">Make our next event extra special:</p>
+          <h2>{{event.date_short}} <i>at</i> {{event.location}}</h2>
+          <h3>Some of the activities:</h3>
+          <ul class="project-list">
+          {% for project in event.projects %}
+            <li><a href="{{project.url}}" target="_blank"><b>{{project.name}}:</b> <span class="project-description">{{ project.description }}</span></a></li>
+          {% endfor %}
+        </ul>
+        <p>{{event.date_long}}, {{event.time}}<br> {{event.location}}, {{event.address}}<br><b>Free.</b></p>
+        <p><a href="{{event.rsvp}}" class="button button-blue large">RSVP & MORE INFO</a></p>
+        <p>Interested in attending and having your organization or project included on this list? <a href="{{event.issue}}">Leave a comment on this issue to let us know!</a></p>
       {% endfor %}
-    </ul>
     <hr>
-    <p>Interested in attending and having your organization or project included on this list? Send an email to <b>hi at openseattle.org</b> to let us know!</p>
-    <hr>
-    <p>Tuesday, November 17, 5:30 to 8:30 p.m.<br>at <a href="http://www.galvanize.com/campuses/seattle-pioneer-square/#.VkW24nYWLRY">Galvanize</a>, 111 S Jackson St. Seattle, WA 98104<br><b>Free.</b></p>
-    <p><a href="http://www.meetup.com/openseattle/events/226411188/" class="button button-blue large">RSVP & MORE INFO</a></p>
   </div>
 </div>
 

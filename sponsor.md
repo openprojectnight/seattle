@@ -8,7 +8,7 @@ permalink: /sponsor/
 
 ## Sponsorship details
 <ul>
-<li class="row"><b>Price: $150</b></li>
+<li class="row"><b>Price: $250</b></li>
 <li class="row">Logo, name, description, & link of your choice added to sponsors list</li>
 <li class="row">Name & logo included in promotion of Open Project Night event</li>
 <li class="row">Mentioned at beginning of event</li>
